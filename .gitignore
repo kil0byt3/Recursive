@@ -1,0 +1,8 @@
+
+servers.dat
+usercache.json
+usernamecache.json
+*.log
+*.gz
+/logs/
+/crash-reports/
