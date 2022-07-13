@@ -7,7 +7,7 @@ debugEntityIcons:false
 debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
-minimap:false
+minimap:true
 caveMaps:2
 caveZoom:2
 showWaypoints:true
@@ -18,8 +18,8 @@ oldDeathpoints:false
 distance:1
 showCoords:false
 lockNorth:true
-zoom:3
-minimapSize:110
+zoom:1
+minimapSize:121
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
@@ -72,7 +72,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:80
 waypointsBottom:false
-minimapShape:0
+minimapShape:1
 lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
@@ -86,7 +86,7 @@ compassColor:9
 northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
-entityRadar:true
+entityRadar:false
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1

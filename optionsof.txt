@@ -29,7 +29,7 @@ ofRainSplash:true
 ofLagometer:false
 ofShowFps:false
 ofAutoSaveTicks:4000
-ofBetterGrass:3
+ofBetterGrass:1
 ofConnectedTextures:2
 ofWeather:true
 ofSky:true
@@ -53,7 +53,7 @@ ofShowCapes:true
 ofNaturalTextures:false
 ofEmissiveTextures:true
 ofLazyChunkLoading:true
-ofRenderRegions:false
+ofRenderRegions:true
 ofSmartAnimations:false
 ofDynamicFov:true
 ofAlternateBlocks:true
@@ -63,7 +63,7 @@ ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:true
 ofFastMath:false
-ofFastRender:false
+ofFastRender:true
 ofChatBackground:0
 ofChatShadow:true
 ofTelemetry:2
