@@ -9,11 +9,6 @@ customization-meta {
 }
 
 customization {
-  path = config/paxi/resourcepacks/meta/background.png
-  action = texturizebackground
-}
-
-customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -59,7 +54,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = 62
+  y = 30
 }
 
 customization {
@@ -89,9 +84,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = 2
+  x = -49
   action = movebutton
-  y = 62
+  y = 54
 }
 
 customization {
@@ -152,9 +147,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = -100
+  x = 2
   action = movebutton
-  y = 38
+  y = 30
 }
 
 customization {
@@ -249,40 +244,6 @@ customization {
 }
 
 customization {
-  path = config/paxi/resourcepacks/meta/title_transparent.png
-  orientation = top-centered
-  x = -123
-  width = 249
-  action = addtexture
-  actionid = d5dd9ef5-1dc3-4570-98ba-0f48bcc54cb21645781770413
-  y = 20
-  height = 83
-}
-
-customization {
-  orientation = mid-centered
-  restartbackgroundanimations = true
-  delayappearanceseconds = 0.5
-  buttonaction = openlink
-  backgroundhovered = config\paxi\resourcepacks\meta\title_buttons_hover_small.png
-  description = Download and add Optifine to the%n%mods folder, to enable connected%n%textures and boost performances.
-  label = Optifine
-  loopbackgroundanimations = true
-  fadein = true
-  fadeinspeed = 1.0
-  x = 2
-  width = 98
-  actionid = a78cac06-2b1f-4df4-af23-4c3ff0fb3d271640807774478
-  action = addbutton
-  y = 38
-  delayappearance = true
-  backgroundnormal = config\paxi\resourcepacks\meta\title_buttons_small.png
-  value = https://optifine.net/downloads
-  delayappearanceeverytime = false
-  height = 20
-}
-
-customization {
   orientation = bottom-left
   shadow = true
   x = 3
@@ -291,6 +252,17 @@ customization {
   y = -11
   scale = 1.0
   alignment = left
-  value = Create Flavored 4.0
+  value = Recursive 1.0
+}
+
+customization {
+  path = resourcepacks/internal/recursivelogo.png
+  orientation = mid-centered
+  x = -356
+  width = 713
+  action = addtexture
+  actionid = db4b5bf7-690f-4e0d-a1b3-048625ed35081657671906973
+  y = -291
+  height = 402
 }
 

@@ -3,7 +3,7 @@ type = hud
 customization-meta {
   randomgroup = 1
   keepaspectratio = false
-  backgroundimage = config/paxi/resourcepacks/meta/background.png
+  backgroundimage = resourcepacks/internal/VxdiLex.png
   renderorder = foreground
   randommode = false
   randomonlyfirsttime = false
@@ -15,10 +15,21 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
+  orientation = bottom-centered
   x = 0
   action = editprogressbar
-  y = 45
+  y = -14
+}
+
+customization {
+  path = resourcepacks/internal/recursivelogo.png
+  orientation = top-centered
+  x = 0
+  width = 626
+  action = addtexture
+  actionid = a83d00c2-32f1-415f-86b9-ec541cd675e91657671544441
+  y = 10
+  height = 353
 }
 
 customization {
@@ -26,24 +37,13 @@ customization {
   basecolor = #ffff00
   shadow = true
   rotation = 0.0
-  x = 4
-  actionid = 4d535d31-ce09-4a73-a1c5-9df97a3a04081641138823768
+  x = 5
+  actionid = ed26aa30-0fb0-426a-a515-d75029dcdae31657672917915
   action = addsplash
-  y = 61
-  scale = 0.4
+  y = -140
+  scale = 1.0
   refresh = false
-  text = LOADING ...
+  text = LOADING...
   bouncing = true
-}
-
-customization {
-  path = config/paxi/resourcepacks/meta/title_transparent.png
-  orientation = mid-centered
-  x = -1
-  width = 271
-  action = addtexture
-  actionid = 835282ce-527e-40cf-8153-5042f8dd0c181645781605253
-  y = -30
-  height = 97
 }
 

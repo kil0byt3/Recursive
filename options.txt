@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -23,7 +23,7 @@ mouseSensitivity:0.5
 fov:0.375
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.8518485915492958
+gamma:0.0
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:1.0
@@ -112,6 +112,8 @@ key_of.key.zoom:key.keyboard.z
 key_key.openNotes:key.keyboard.n
 key_key.prone:key.keyboard.unknown
 key_key.prone.toggle:key.keyboard.unknown
+key_Reload Menu | CTRL + ALT + :key.keyboard.r
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
@@ -168,11 +170,9 @@ key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_key.diet.open.desc:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -191,11 +191,13 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
+key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown

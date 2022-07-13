@@ -6,3 +6,8 @@ usernamecache.json
 *.gz
 /logs/
 /crash-reports/
+config/byg/backups/last_working_configs_backup.zip
+not-enough-crashes/Uploaded Crash logs.txt
+/saves/
+/XaeroWaypoints/
+/XaeroWorldMap/
