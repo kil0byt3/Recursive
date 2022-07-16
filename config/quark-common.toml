@@ -546,7 +546,7 @@
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Fairy Rings" = true
-	Corundum = true
+	Corundum = false
 	"Chorus Vegetation" = true
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
@@ -1550,9 +1550,9 @@
 		"Enchantments To Begone" = []
 
 [oddities]
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 	Pipes = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	Crate = true
 	Backpack = false

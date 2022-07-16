@@ -29,6 +29,9 @@ adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
-minimapRadar:true
+minimapRadar:false
+pacPlayers:true
 renderWaypoints:true
+displayClaims:true
+claimsOpacity:80
 globalVersion:1

@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:334
+ignoreUpdate:335
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -34,7 +34,7 @@ lighting:true
 dotsStyle:0
 dotNameScale:1.0
 compassOverEverything:true
-showBiome:true
+showBiome:false
 showFlowers:true
 keepWaypointNames:true
 waypointsDistanceExp:0

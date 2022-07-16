@@ -1,0 +1,27 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "littlelogistics:guide": {
+      "viewedEntries": [
+        "littlelogistics:energy_locomotive",
+        "littlelogistics:vessel_charger"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "geolosys:field_manual": {
+      "viewedEntries": [
+        "geolosys:01_introduction/01_getting_started",
+        "geolosys:01_introduction/03_vanilla_ores",
+        "geolosys:01_introduction/04_configuring",
+        "geolosys:01_introduction/02_ore_plutons",
+        "geolosys:03_resources/bauxite",
+        "geolosys:03_resources/malachite",
+        "geolosys:02_prospecting/02_prospectors_pick"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

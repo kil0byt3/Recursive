@@ -22,7 +22,7 @@ hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.375
 screenEffectScale:1.0
-fovEffectScale:1.0
+fovEffectScale:0.0
 gamma:0.0
 renderDistance:8
 simulationDistance:8
@@ -36,7 +36,7 @@ ao:1
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","Supplementaries Generated Pack","Disable Bushy Leaves","file/Stay_True_1.18.zip","Vanilla Tweaks","Modded Tweaks","file/Create Style Modded Compats v13.zip","file/Stay+True+Compats+v3+[1.18].zip","file/Tool+Belt+Retextured+1.18.x.zip"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","Supplementaries Generated Pack","Disable Bushy Leaves","file/Stay_True_1.18.zip","Vanilla Tweaks","Modded Tweaks","file/Create Style Modded Compats v13.zip","file/Stay+True+Compats+v3+[1.18].zip","file/Tool+Belt+Retextured+1.18.x.zip","Everycomp Generated Pack","file/recursive"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:localhost
 lang:en_us
@@ -71,7 +71,7 @@ skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
 hideBundleTutorial:false
-syncChunkWrites:true
+syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
 key_key.attack:key.mouse.left
@@ -108,12 +108,12 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_of.key.zoom:key.keyboard.z
+key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.openNotes:key.keyboard.n
 key_key.prone:key.keyboard.unknown
-key_key.prone.toggle:key.keyboard.unknown
+key_key.prone.toggle:key.keyboard.z
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
@@ -144,22 +144,39 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
+key_key.entityculling.toggle:key.keyboard.unknown
 key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
-key_Piston Pushcart Up:key.keyboard.space
-key_Piston Pushcart Down:key.keyboard.left.control
+key_key.hexerei.broomDescend:key.keyboard.left.shift
+key_key.buildinggadgets.settings_menu:key.keyboard.g
+key_key.buildinggadgets.range:key.keyboard.r
+key_key.buildinggadgets.undo:key.keyboard.u
+key_key.buildinggadgets.anchor:key.keyboard.h
+key_key.buildinggadgets.fuzzy:key.keyboard.unknown
+key_key.buildinggadgets.connected_area:key.keyboard.unknown
+key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown
+key_key.buildinggadgets.material_list:key.keyboard.m
 key_key.bancis_enchantments.cloud_step_keybind:key.keyboard.space
 key_key.bancis_enchantments.updraft_keybind:key.keyboard.left.shift
-key_oreexcavation.key.excavate:key.keyboard.grave.accent
-key_oreexcavation.key.shape_toggle:key.keyboard.unknown
-key_oreexcavation.key.shape_edit:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.unknown
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.show_recipe_input:key.keyboard.keypad.3
 key_key.waila.show_recipe_output:key.keyboard.keypad.4
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_oreexcavation.key.excavate:key.keyboard.grave.accent
+key_oreexcavation.key.shape_toggle:key.keyboard.unknown
+key_oreexcavation.key.shape_edit:key.keyboard.unknown
+key_framedblocks.key.update_cull:key.keyboard.f9
+key_Options Gui:key.keyboard.i
+key_key.curios.open.desc:key.keyboard.unknown
+key_key.ars_nouveau.open_book:key.keyboard.unknown
+key_key.ars_nouveau.selection_hud:key.keyboard.v
+key_key.ars_nouveau.previous_slot:key.keyboard.unknown
+key_key.ars_nouveau.next_slot:key.keyboard.x
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -189,16 +206,24 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.mouse.middle
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_key.worldstripper.strip_world:key.keyboard.delete
+key_key.worldstripper.dress_world:key.keyboard.insert
+key_key.worldstripper.add_block:key.keyboard.page.up
+key_key.worldstripper.remove_block:key.keyboard.page.down
+key_key.worldstripper.increase_range:key.keyboard.page.up:SHIFT
+key_key.worldstripper.decrease_range:key.keyboard.page.down:SHIFT
+key_key.worldstripper.big_increase_range:key.keyboard.page.up:ALT
+key_key.worldstripper.big_decrease_range:key.keyboard.page.down:ALT
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
@@ -221,23 +246,23 @@ key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_toggle_pac_players:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
-key_gui.xaero_open_map:key.keyboard.m
+key_gui.xaero_open_map:key.keyboard.c
 key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
-key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.r
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
 key_key.configured.open_mod_list:key.keyboard.unknown
-key_key.toolbelt.open:key.keyboard.c
+key_key.toolbelt.open:key.keyboard.unknown
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
 key_key.toolbelt.slot:key.keyboard.v
