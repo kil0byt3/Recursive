@@ -1,9 +1,9 @@
 #Microphone activation type
 #Allowed Values: PTT, VOICE
-microphone_activation_type = "PTT"
+microphone_activation_type = "VOICE"
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
-voice_activation_threshold = -50.0
+voice_activation_threshold = -37.81136363636364
 #The voice chat volume
 #Range: 0.0 ~ 2.0
 voice_chat_volume = 1.0
@@ -26,12 +26,12 @@ audio_packet_threshold = 3
 voice_deactivation_delay = 25
 #The microphone used by the voice chat
 #Empty for default device
-microphone = ""
+microphone = "OpenAL Soft on MODMIC (Realtek(R) Audio)"
 #The speaker used by the voice chat
 #Empty for default device
-speaker = ""
+speaker = "OpenAL Soft on SCHITT (USB Modi Device)"
 #If the microphone is muted (only when using voice activation)
-muted = true
+muted = false
 #If the voice chat is disabled (sound and microphone off)
 disabled = false
 #If the voice chat icons should be hidden
