@@ -1,7 +1,21 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:intro/intro",
+        "naturesaura:intro/aura",
+        "naturesaura:intro/botany",
+        "naturesaura:practices/gold_trees",
+        "naturesaura:practices/aura_plants",
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/aura_bottle",
+        "naturesaura:using/altar"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "littlelogistics:guide": {
       "viewedEntries": [
         "littlelogistics:energy_locomotive",
@@ -19,6 +33,41 @@
         "geolosys:03_resources/bauxite",
         "geolosys:03_resources/malachite",
         "geolosys:02_prospecting/02_prospectors_pick"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/spell_casting",
+        "ars_nouveau:getting_started/world_generation",
+        "ars_nouveau:machines/imbuement_chamber",
+        "ars_nouveau:getting_started/new_glyphs",
+        "ars_nouveau:machines/scribes_block",
+        "ars_nouveau:source/mycelial_sourcelink",
+        "ars_nouveau:source/vitalic_sourcelink",
+        "ars_nouveau:source/agronomic_sourcelink",
+        "ars_nouveau:source/volcanic_sourcelink",
+        "ars_nouveau:automation/dominion_wand",
+        "ars_nouveau:equipment/amulet_of_mana_boost",
+        "ars_nouveau:equipment/amulet_of_mana_regen",
+        "ars_nouveau:equipment/armor",
+        "ars_nouveau:equipment/spell_books",
+        "ars_nouveau:equipment/ring_of_greater_discount",
+        "ars_nouveau:machines/enchanting_apparatus",
+        "ars_nouveau:machines/warp_portal",
+        "ars_nouveau:equipment/warp_scroll",
+        "ars_nouveau:getting_started/obtaining_gems",
+        "ars_nouveau:equipment/dowsing_rod",
+        "ars_nouveau:source/alchemical_sourcelink",
+        "ars_nouveau:source/source_jar",
+        "ars_nouveau:source/relay",
+        "ars_nouveau:source/relay_collector",
+        "ars_nouveau:source/relay_deposit",
+        "ars_nouveau:source/relay_splitter",
+        "ars_nouveau:source/relay_warp",
+        "ars_nouveau:rituals/performing_rituals",
+        "ars_nouveau:rituals/flight"
       ],
       "bookmarks": [],
       "completedManualQuests": []

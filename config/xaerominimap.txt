@@ -11,12 +11,12 @@ minimap:true
 caveMaps:2
 caveZoom:2
 showWaypoints:true
-showIngameWaypoints:false
+showIngameWaypoints:true
 displayRedstone:true
 deathpoints:true
 oldDeathpoints:false
 distance:1
-showCoords:false
+showCoords:true
 lockNorth:true
 zoom:1
 minimapSize:121
@@ -86,7 +86,7 @@ compassColor:9
 northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
-entityRadar:false
+entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1

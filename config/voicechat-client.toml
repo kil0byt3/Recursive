@@ -3,7 +3,7 @@
 microphone_activation_type = "VOICE"
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
-voice_activation_threshold = -37.81136363636364
+voice_activation_threshold = -37.522727272727266
 #The voice chat volume
 #Range: 0.0 ~ 2.0
 voice_chat_volume = 1.0
@@ -26,12 +26,12 @@ audio_packet_threshold = 3
 voice_deactivation_delay = 25
 #The microphone used by the voice chat
 #Empty for default device
-microphone = "OpenAL Soft on MODMIC (Realtek(R) Audio)"
+microphone = "OpenAL Soft on RTX (NVIDIA Broadcast)"
 #The speaker used by the voice chat
 #Empty for default device
 speaker = "OpenAL Soft on SCHITT (USB Modi Device)"
 #If the microphone is muted (only when using voice activation)
-muted = false
+muted = true
 #If the voice chat is disabled (sound and microphone off)
 disabled = false
 #If the voice chat icons should be hidden
@@ -61,7 +61,7 @@ hud_icon_pos_x = 16
 #The Y position of the HUD icons
 #Negative values mean anchoring to the bottom
 #Range: > -2147483648
-hud_icon_pos_y = -16
+hud_icon_pos_y = -32
 #The scale of the HUD icons
 #Range: 0.01 ~ 10.0
 hud_icon_scale = 1.0
