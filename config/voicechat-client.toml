@@ -3,7 +3,7 @@
 microphone_activation_type = "VOICE"
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
-voice_activation_threshold = -37.522727272727266
+voice_activation_threshold = -47.33636363636363
 #The voice chat volume
 #Range: 0.0 ~ 2.0
 voice_chat_volume = 1.0
@@ -26,12 +26,12 @@ audio_packet_threshold = 3
 voice_deactivation_delay = 25
 #The microphone used by the voice chat
 #Empty for default device
-microphone = "OpenAL Soft on RTX (NVIDIA Broadcast)"
+microphone = "OpenAL Soft on Microphone (NVIDIA Broadcast)"
 #The speaker used by the voice chat
 #Empty for default device
-speaker = "OpenAL Soft on SCHITT (USB Modi Device)"
+speaker = "OpenAL Soft on SCHIIT (USB Modi Device)"
 #If the microphone is muted (only when using voice activation)
-muted = true
+muted = false
 #If the voice chat is disabled (sound and microphone off)
 disabled = false
 #If the voice chat icons should be hidden

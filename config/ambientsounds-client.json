@@ -4,7 +4,7 @@
     "unknown.suspense": 1,
     "dark.suspense": 1,
     "deep.cave": 1,
-    "wind.wind": 1,
+    "wind.wind": 0.25,
     "underwater.underwater": 1,
     "underwater.underwater-deep": 1,
     "rain.rain": 1,
